@@ -42,6 +42,7 @@ function getData() {
 }
 
 function processFile() {
+    button.innerText = "Filter Satellite Passes "
     getData();
     if (file) {
         const reader = new FileReader();
